@@ -150,3 +150,28 @@ Its alignment scores and PAM-based rankings are computational indicators. They d
 ---
 
 **GeneWeaver – Exploring DNA Alignment Through Parallel Computing.**
+## 🖥️ Dashboard Preview
+
+### Main Dashboard
+The GeneWeaver dashboard provides FASTA input, sequence selection, and access to alignment and screening operations.
+
+![GeneWeaver Main Dashboard](docs/screenshots/dashboard.png)
+
+### Alignment Results
+Displays alignment progress, CPU vs GPU execution time, and Dask processing results.
+
+![GeneWeaver Alignment Results](docs/screenshots/alignment_results.png)
+### Candidate Screening Results
+
+GeneWeaver uses Dask to schedule independent DNA candidate alignment tasks and rank candidates based on alignment similarity and scores.
+
+![GeneWeaver Candidate Screening](docs/screenshots/candidate_screening.png)
+
+**Example Results:**
+
+| Rank | Candidate | Similarity | Alignment Score |
+|---|---|---:|---:|
+| 1 | Chromosome_3 | 69.39% | 45 |
+| 2 | Chromosome_2 | 58.00% | 28 |
+
+*These rankings represent computational alignment results, not experimentally validated CRISPR editing efficacy.*
