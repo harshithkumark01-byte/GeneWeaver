@@ -1,0 +1,15 @@
+# Core numerical computing
+numpy>=2.0
+
+# GPU acceleration
+numba>=0.61
+
+# Distributed computing
+dask>=2024.1
+
+# Terminal dashboard
+textual>=0.80
+rich>=13.0
+
+# Testing
+pytest>=8.0
