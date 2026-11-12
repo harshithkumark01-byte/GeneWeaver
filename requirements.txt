@@ -7,6 +7,9 @@ numba>=0.61
 # Distributed computing
 dask>=2024.1
 
+# Bioinformatics and FASTA processing
+biopython>=1.84
+
 # Terminal dashboard
 textual>=0.80
 rich>=13.0
