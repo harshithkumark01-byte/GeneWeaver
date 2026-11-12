@@ -1,0 +1,3 @@
+Target_ID,Target_Length,Rank,Candidate_ID,Candidate_Length,Matches,Substitutions,Insertions,Deletions,Total_Differences,Similarity_Percent,Alignment_Score,Scheduler,Execution_Mode,Screening_Time_ms
+Chromosome_1,46,1,Chromosome_3,44,34,7,3,5,15,69.39,45,threads,Dask parallel candidate screening,494.27490000016405
+Chromosome_1,46,2,Chromosome_2,45,29,12,4,5,21,58.0,28,threads,Dask parallel candidate screening,494.27490000016405
