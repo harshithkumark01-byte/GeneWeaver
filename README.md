@@ -1,3 +1,4 @@
+![GeneWeaver CI](https://github.com/harshithkumark01-byte/GeneWeaver/actions/workflows/tests.yml/badge.svg)
 # 🧬 GeneWeaver
 ### GPU-Accelerated CRISPR DNA Alignment and Candidate Screening Engine
 
